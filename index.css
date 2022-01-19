@@ -1,0 +1,199 @@
+/* Importing the google fonts */
+@import url('https://fonts.googleapis.com/css?family=Orbitron:700|Playfair+Display+SC:700i|Nova+Round|Quando');
+
+/* Not allowing anyone to do anything with the images */
+img {
+  pointer-events: none;
+}
+
+/* --Navbar CSS Begins-- */
+.default-color {
+ background-color: #2BBBAD; /* Color of my navbar background */
+}
+
+#link {
+  color: white;
+  font-family: Playfair Display SC;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+#jsNav1 {
+  font-family: Orbitron;
+  font-size: 18px;
+}
+
+#link:hover {
+  text-shadow: 1px 2px #ffffff;
+}
+
+.nav.navbar-nav li a {
+  color: #ffffff !important; 
+}
+
+#link1 {
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+#link1:hover {
+  color: #34495E !important;
+}
+
+
+.about-align {
+  padding-right: 40px;
+}
+
+/* Navbar CSS Ends */
+
+/* Background Image for about section */
+#backgd-image {
+  background-image: url(http://www.designbolts.com/wp-content/uploads/2012/12/White-Linen-Seamless-Pattern-For-Website-Backgrounds.jpg);
+}
+
+/* Background Image for about section ends here */
+
+/* My circled image */
+.img-circle {
+  border-radius: 50%;
+}
+.center-block {
+    width: 185px;
+    height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* My circled image ends here */
+
+/* Jaspreet text */
+#Quando {
+  font-family: Quando, sans-serif;
+  font-size: 35px;
+}
+/* Jaspreet text ends here*/
+
+/* Blink Cursor animation */
+@keyframes blinking {
+  from {color: black;}
+  to {color: transparent;}
+}
+
+#blink-cursor {
+  color: black;
+  height: 35px;
+  animation-name:  blinking;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  
+}
+/* Blink cursor animation ends here */
+
+#js-portfolio {
+  font-family: Quando;
+}
+
+/* background image for Portfolio section */
+/*#backgd-image2 {
+  width: 100%;
+  height: 100%;
+  background-image: url(http://ginva.com/wp-content/uploads/2012/02/simple-wallpaper-20.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+} */
+
+/* background image for Portfolio section ends here */
+#porhead {
+  color: #4682b4;
+  font-family: Orbitron;
+}
+/*Image Gallery Section */
+#spacing {
+  margin-bottom: 70px;
+}
+
+.shadow-effect {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2), 0 6px 15px rgba(0, 0, 0, 0.19);
+}
+
+.para-style {
+  margin-top: 30px;
+  font-family: Nova Round;
+}
+
+ul{
+    font-size:1.2rem;
+}
+#it{
+    text-align:center;
+}
+
+/*Image Gallery section ends here */
+
+/*Contact us form background */
+#contact-background {
+  background-image: url(https://image.ibb.co/cbrvBn/Cyborg_Fiction_Robot_Woman_Wallpaper.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/*Contact us form background ends here*/
+
+/* contact CSS */
+.contact-align {
+  margin-left: 150px;
+}
+
+.form-text-style {
+  font-family: Quando;
+  font-size: 20px;
+}
+
+#font-zoom:hover {
+  -ms-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+@media only screen and (min-width: 480px) {
+  .contact-align{
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  .contact-align{
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .contact-align{
+    margin-left: 200px;
+  }
+}
+/* contact CSS ends here */
+
+/* Footer CSS */
+.footer {
+  height: 60px;
+  background-color: white;
+  width: 100%;
+}
+
+@keyframes beat {
+  from {color: black;}
+  to {color: red;}
+}
+
+.heart-beat {
+  color: black;
+  animation-name: beat;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+/* Footer CSS ends here */

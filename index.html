@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Potfolio</title>
+        <!-- Including bootstrap 4 -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+<script src="https://use.fontawesome.com/7b48bb7a92.js"></script>
+<link rel="stylesheet" href="index.css">
+<script src="index.js"></script>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-toggleable-md navbar-light fixed-top default-color"> <!-- Fixed top class makes the navigation bar fix to top. -->
+  
+  <a class="navbar-brand" href="#" target="_blank" id="link">Deepak's Potfolio</a> 
+  </div>
+  <!-- button created at the time when we are collapsing the screen -->
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#jsNav1"> <!-- navbar toggler right is the solution of my problem of shifting navbar-toogle-icon to right -->
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="jsNav1">    
+    <ul class="nav navbar-nav ml-auto">
+      <li class="nav-item active about-align"><a class="nav-link about" href="#section1" id="link1">ABOUT</a></li>
+      <li class="nav-item about-align"><a class="nav-link portfolio" href="#section2" id="link1">PORTFOLIO</a></li>
+      <li class="nav-item about-align"><a class="nav-link reach" href="#section3" id="link1">REACH ME!</a></li>
+    </ul>
+  </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+<div id="section1" class="sec1">
+  <div class="container-fluid" id="backgd-image">
+    <br/>
+    <br/>
+    <br/>
+    <img class="img-thumbnail center-block" src="https://i.ibb.co/zhB1xb2/Whats-App-Image-2021-11-10-at-12-41-56-1.jpg" alt="jaspreet image">
+    <br/>
+    <p align="center" id="Quando">
+      Deepak Sharma <span id="blink-cursor">|</span>
+    </p>
+    <br/>
+    <div id="js-potfolio">
+      <h3 align="center"><code>&lt;li&gt;</code><span style="color: #154360;"><span class="fa fa-heart"></span> to Code</span><code>&lt;/li&gt;</code></h3>
+      <h3 align="center"><code>&lt;li&gt;</code><span style="color: #154360;">Full Stack Developer</span><code>&lt;/li&gt;</code></h3>
+      <h3 align="center"><code>&lt;li&gt;</code><span style="color: #154360;">Cricketer</span><code>&lt;/li&gt;</code></h3>
+      <h3 align="center"><code>&lt;li&gt;</code><span style="color: #154360;">Life  Time Learner</span><code>&lt;/li&gt;</code></h3>
+
+      <h3 align="center"><code>&lt;li&gt;</code><span style="color: #154360;">Pursing B.E in Computer Science Enginnering</span><code>&lt;/li&gt;</code></h3>
+    </div>
+    <br/>
+    <br/>
+  </div>
+</div>
+
+<!-- Portfolio section -->
+<div id="section2" class="sec2">
+  <div class="container-fluid">
+    <br/>
+    <br/>
+    <br/>
+    <h2 align="center" id="porhead">Projects</h2>
+    <br/>
+    <div class="row" id="spacing">
+      <div class="col-md-6 col-xs-6 col-sm-6">
+        <br/>
+        <a href="#" target="_blank" data-toggle="tooltip" title="Click to have a look into project!"><img src="https://i.ibb.co/wcx9TZq/Screenshot-60.png" class="img-fluid rounded img-thumbnail shadow-effect" alt="Screenshot-60" border="0"></a>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-6">
+        <h4 class="para-style"><u>Weather Forecaster</u>&nbsp;<span class="badge badge-default">HTML, CSS, JS</span></h4>
+        <h4 class="para-style"><u>Overview:</u></h4>
+        <p class="lead para-style">This is a weather forecaster webapp. It display the weather of the city which you want to search.</p>
+        <h4 class="para-style"><u>Technology:</u></h4>
+        <p class="lead para-style">HTML, CSS, JS<br>All data is coming live from an API, which I have used.</p>
+      </div>
+    </div>
+    <div class="row" id="spacing">
+      <div class="col-md-6 col-xs-6 col-sm-6">
+        <h4 class="para-style"><u>E-Commerce WebApp</u>&nbsp;<span class="badge badge-default">HTML, CSS, JS, Bootstrap, Node, Express, MonoDB</span></h4>
+        <h4 class="para-style"><u>Overview:</u></h4>
+        <p class="lead para-style">This is a e-commerce website build using
+            Node.js, Express.js, MongoDB, JavaScript,
+            HTML, CSS, Bootstrap.
+            Merchant can also add new products and products get updated in database.
+            The website is authenticated, user can make their
+            account, their cart and I have also used
+            payUMoney payment gateway to make this
+            website fully functional </p>
+        <h4 class="para-style"><u>Technology:</u></h4>
+        <p class="lead para-style">HTML, CSS, JS, Bootstrap, Node.js, Express.js, MongoDB<br>I have also authenticated this website using "passport" pacakage.<br>Database used is MongoDB.</p>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-6">
+        <img src="https://i.ibb.co/j6pPnPD/Screenshot-62.png" class="img-fluid rounded img-thumbnail shadow-effect" alt="Screenshot-62" border="0">
+      </div>
+    </div>
+    <div class="row" id="spacing">
+      <div class="col-md-6 col-xs-6 col-sm-6">
+        <img src="https://i.ibb.co/B23pXNj/Screenshot-64.png" class="img-fluid rounded img-thumbnail shadow-effect" alt="Screenshot-64" border="0">
+      </div>
+      <div class="col-md-6 col-xs-6 col-sm-6">
+        <h4 class="para-style"><u>GreatThinker.com</u>&nbsp;<span class="badge badge-default">HTML, CSS, JS, Bootstrap, Node.js, Express, MongoDB</span></h4>
+        <h4 class="para-style"><u>Overview:</u></h4>
+        <p class="lead para-style">This WeApp is a part of project given by "Coding Blocks". User can add their quotes, update their quotes, delete and add new quotes.
+            All quotes update or genrated are stored in the database.
+        </p>
+        <h4 class="para-style"><u>Technology:</u></h4>
+        <p class="lead para-style">HTML, CSS, JS, Bootstrap, Node.js, Express.js, MongoDB</p>
+      </div>
+    </div>
+    <br> <br>
+    <h2 align="center" id="porhead">SKILLS AND ABILITIES</h2>
+    <br> <br>
+    
+    <div class="section" style="background-color: whitesmoke;" id="skillsets">
+        <div class="container">
+            <div class="row center">
+                <div class="col">
+                   <ul>
+                       <li>Able to work harmoniously with other
+                        team members.
+                        </li>
+                        <li>Local and structured thinking</li>
+                        <li>Posses great analytical, professional
+                            and problem solving skills.
+                            </li>
+                   </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+<br>  <br>  <br>
+    <h2 align="center" id="porhead">Technical Skills</h2>
+    <br> <br>
+    <div class="section" style="background-color: whitesmoke;" id="skillsets">
+        <div class="contaibnr">
+            <div class="row" id="it">
+                <div class="col">
+                    <h5>JAVA</h5>
+                </div>
+                <div class="col">
+                    <h5>HTML</h5>
+                </div>
+                <div class="col">
+                    <h5>CSS</h5>
+                </div>
+                <div class="col">
+                    <h5>JavaScript</h5>
+                </div>
+            </div>
+            <br> 
+            <div class="row" id="it">
+                <div class="col">
+                    <h5>Node.js</h5>
+                </div>
+                <div class="col">
+                    <h5>Express.js</h5>
+                </div>
+                <div class="col">
+                    <h5>MongoDB</h5>
+                </div>
+                <div class="col">
+                    <h5>MySQL</h5>
+                </div>
+            </div>
+            <br>
+            <div class="row" id="it">
+                <div class="col">
+                    <h5>React.js</h5>
+                </div>
+                <div class="col">
+                    <h5>AWS</h5>
+                </div>
+                <div class="col">
+                    <h5>Docker</h5>
+                </div>
+                <div class="col">
+                    <h5></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+  </div>
+</div>
+
+<!-- Contact Form -->
+<div id="section3" class="sec3">
+  <div class="jumbotron" id="contact-background">
+    <div class="container-fluid">
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <div class="row">
+        <div class="col-md-10 col-sm-12 col-xs-12">
+          <h2 class="contact-align" id="porhead">GET IN TOUCH WITH ME!</h2>
+        </div>
+      </div>
+      <br/>
+          <div class="row">
+            <div class="col-md-2">
+              <a href="https://github.com/deepak2403-sha" target="_blank"><i id="font-zoom" class="fa fa-github-alt fa-4x"></i></a>
+            </div>
+            <div class="col-md-2">
+              <a href="https://www.linkedin.com/in/deepaksharma2403/" target="_blank"><i id="font-zoom" class="fa fa-linkedin-square fa-4x"></i></a>
+            </div>
+            <div class="col-md-2">
+              <a href="mailto:dsharma04724@gmail.com" target="_top"><i id="font-zoom" class="fa fa-envelope fa-4x"></i></a>
+            </div>
+            <div class="col-md-2">
+              <a href="https://twitter.com/DeepakS25665731" target="_blank"><i id="font-zoom" class="fa fa-twitter-square fa-4x"></i></a>
+            </div>
+          </div>
+        
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container-fluid">
+    <div class="col-xs-12 col-sm-12 col-md-12">
+      <h5 align="center">Made with <span class="fa fa-heart heart-beat"></span> by Deepak Sharma <span class="fa fa-copyright"></span> 2022</h5>
+      
+    </div>
+  </div>
+</footer>
+</body>
+</html>
